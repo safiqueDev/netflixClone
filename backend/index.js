@@ -22,7 +22,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://netflixclone-2pih.onrender.com',
+    origin:'https://netflixclone-2pih.onrender.com/',
     credentials:true
 }
 app.use(cors(corsOptions));
